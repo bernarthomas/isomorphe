@@ -1,3 +1,4 @@
 babel-cache
 node_modules
 src/static/js/bundle.js
+resources.md
