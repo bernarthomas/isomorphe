@@ -1,0 +1,23 @@
+html, body {font-family: sans-serif; height: 100%; margin: 0; padding: 0;}
+body {height: 100%; overflow: hidden; width: 100%; }
+a {margin-left: 0.5rem; white-space: nowrap;}
+#bt-container {display : table; height: 100%; width: 100%;}
+#bt-header {background: linear-gradient(to right, #030303, #030303, #030303, #000080); display : table-row; height: 6rem;}
+#bt-react-logo{color: #6897BB; display: inline-block; font-size: 2rem; padding: 1rem; text-align: right; text-decoration: none; width: 12rem; white-space: normal;}
+#header {display: flex;}
+.bt-menu-item {background-color: transparent; border: solid 2px #6897BB; color: #F5F5F5; font-variant: small-caps; font-weight: bold; height: 1.2rem; margin-top: 3rem; padding: 0.5rem; text-decoration: none; vertical-align: middle;}
+.active {background-color: #F5F5F5; color: #030303;}
+#bt-content {background-color: #F5F5F5; display : table-row; height: 100%; margin: 0; overflow: auto; width: 100%;}
+#bt-content div:first-child { height: 100%; overflow: auto; padding: 1rem; width: 100%; }
+#bt-footer {display : table-row; text-align: justify;}
+#bt-footer p {background: linear-gradient(to top, #BBBBBB, #DDDDDD, #DDDDDD, #BBBBBB); margin: 0; padding: 1rem;}
+
+@media (max-width: 30rem) {
+    #header {display: flex; flex-direction: column; width: 100%;}
+    #bt-react-logo{margin: 0 auto 0 auto}
+    .bt-menu-item {background: linear-gradient(to top, #BBBBBB, #DDDDDD, #DDDDDD, #BBBBBB); border: none; margin: 0 0 1px 0; color: #030303; padding: 0.5rem 0 0.5rem 0; text-align: center; width: 100%;}
+}
+
+
+
+
